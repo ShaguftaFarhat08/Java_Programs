@@ -1,0 +1,20 @@
+class palindrone
+{
+public static void main(String args[])
+{
+String S1="madam" 
+String S2;
+S2=S1;
+StringBuffer sb=new StringBuffer(S1);
+sb.reverse();
+String S3= Sb.toString();
+if(S3.Equal(S2))
+{
+System.out.Println("yes");
+}
+else
+{
+System.out.Println("no");
+}
+}
+}
